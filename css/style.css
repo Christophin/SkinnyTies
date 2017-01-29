@@ -17,6 +17,8 @@ li  {
 
 .orange-nav ul  {
   margin: 0;
+  font-size: 9pt;
+  color: white;
 }
 
 .orange-nav li  {
@@ -25,54 +27,209 @@ li  {
 
 #free-ship  {
   background-color: #C7532C;
-  border-radius: 5px;
-  padding: 3px;
+  border-radius: 3px;
+  padding: 0.6em;
+  font-size: 7pt;
+  margin-left: 50px;
+  margin-bottom: 1px;
+  letter-spacing: 0.1em;
+}
+
+#spring-save  {
+  margin-left: 10px;
+}
+
+#ten-off-50  {
+  margin-left: 14px;
+}
+
+#twenty-off-100  {
+  margin-left: 26px;
+}
+
+#thirty-off-150  {
+  margin-left: 28px;
+}
+
+nav{
+  display: block;
+  position: relative;
+  z-index: 1;
 }
 
 .nav-cont  {
-  width: 100%;
+  text-align: left;
+  height: 99px;
 }
 
-.logo-links  {
-  width: 50%;
+.link1  {
+  font-size: 1.21em;
+  margin-left: 63px;
+  margin-top: 40px;
+}
+
+.link2  {
+  font-size: 1.21em;
+  margin-left: 23px;
+  margin-top: 40px;
+}
+
+.link3  {
+  font-size: 1.21em;
+  margin-left: 23px;
+  margin-top: 40px;
+}
+
+.link4  {
+  font-size: 1.21em;
+  margin-left: 23px;
+  margin-top: 40px;
+}
+
+.link5  {
+  font-size: 1.21em;
+  margin-left: 23px;
+  margin-top: 40px;
+}
+
+.nav-cont-border{
+  background:transparent url(../assets/perforated-bottom@2x.png);
+  height: 5px;
+  width: 100%;
+  background-size: 40px auto;
+  background-repeat-x: repeat;
+  background-repeat-y: no-repeat;
   float: left;
 }
 
-.cart-search  {
-  width: 50%;
-  float:left;
-  line-height: 370%;
+.logo-links  {
+  width: 70%;
+  display: inline-block;
+}
+
+#cart-search  {
+  overflow: hidden;
+  display: inline-block;
 }
 
 .logo {
   float: left;
+  margin-left: 12.3%;
+  width: 108px;
 }
 
-.link1 {
+.logo-img  {
+  width: 100%;
+  height: auto;
+}
+
+.header-link  {
+  text-decoration: none;
+  color: #656565;
+}
+
+.float-left  {
   float: left;
 }
 
-.link2  {
+.banner{
+  margin-top:-5px;
   float: left;
-}
-
-.link3  {
-  float: left;
-}
-
-.link4  {
-  float: left;
-}
-
-.link5  {
-  float: left;
+  width: 100%;
+  border-bottom: 2px solid #EFEFEF;
 }
 
 .banner-box  {
   text-align: center;
   background-color: #F4F4F4;
+  width: 100%;
 }
 
-.tie  {
+.tie-img  {
+  width: 5.9%;
+  margin: 0 1%;
+}
+
+.tie-img img {
+  width: 100%;
+}
+
+.tie-wds  {
+  font-size: .8em;
+  margin-top: 20%;
+}
+
+.dress-bet  {
+  font-size: 3em;
+  margin-top: 5%;
+  padding-bottom: 5%;
+  vertical-align: middle;
+}
+
+.not-ties  {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+.not-ties li{
+  margin-top: 4%;
+  margin-left: 1%;
+  margin-bottom: 6%;
+  margin-right: 1%;
+  width: 27.1%;
+  border: 1px solid #EFEFEF;
+  display: inline-block;
+}
+
+.not-ties li:first-child  {
+  margin-left: 0;
+}
+
+.not-ties li:nth-child(even) {
+  margin: 0;
+}
+
+.not-ties li:last-child  {
+  margin-right: 0;
+}
+
+.not-ties li img{
+  max-width: 100%;
+}
+
+.motto  {
+  font-size: 1.8em;
+  text-align: center;
+  font-style: italic;
+  margin: 0 18%;
+  line-height: 1.5em;
+}
+
+.blog-box  {
+  text-align: center;
+  margin: 1%;
+}
+
+.blog  {
+  text-decoration: none;
+  color: #37A2FF;
+  font-size: .8em;
+  letter-spacing: .2em
+}
+
+.hatchet-bord  {
+  background:transparent url(../assets/hatch-light@2x.png);
+  height: 5px;
+  width: 100%;
+  background-size: 6px auto;
+  background-repeat-x: repeat;
+  background-repeat-y: no-repeat;
+  float: left;
+  margin-top: 5.2%;
+}
+
+.inline-block  {
   display: inline-block;
 }

@@ -230,6 +230,30 @@ nav{
   margin-top: 5.2%;
 }
 
+.facebook, .pintrest, .twitter  {
+  background-image: url(../assets/sprite@2x.png);
+  display: inline-block;
+  height: 72px;
+  width: 72px;
+}
+
+.social-icons  {
+  width:
+}
+.facebook  {
+  height: 72px;
+  width: 72px;
+  background-position: 1061px 0px;
+}
+
+.pintrest  {
+  background-position: 1061px -79px;
+}
+
+.twitter  {
+  background-position: 1061px -158px;
+}
+
 .inline-block  {
   display: inline-block;
 }

@@ -1,4 +1,4 @@
-W01D04: Skinny Ties.
+W01D04: Skinny Ties. (Insane Mode)
 
 - Learned how to make a border with an image, which taught me
   about transparent backgrounds, the xyz axis, and z-line.
